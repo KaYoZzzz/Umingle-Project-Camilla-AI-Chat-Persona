@@ -41,12 +41,11 @@ The system bridges your browser to a local AI server:
 2.  Go to **[umingle.com/text](https://umingle.com/text)**.
 3.  Open Developer Tools (Press `F12` > click **Console** tab).
 4.  **Paste** the code and hit **Enter**.
-5.  You will see: `🛡️ BOT ATTIVO`.
 
 ### 3. Chat!
 
 Start a new conversation on the website. The bot will take over automatically.
-* **To Reset Memory**: The bot automatically wipes memory when a stranger disconnects.
+* **To Reset Memory**: The bot automatically wipes memory when a stranger disconnects (or you manually do it).
 
 ## 🎭 Camilla's Personality
 
