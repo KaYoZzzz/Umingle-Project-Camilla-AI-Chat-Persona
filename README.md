@@ -54,6 +54,17 @@ Camilla is programmed to be:
 * **Safe**: Automatically deflects "creepy" requests and refuses to share personal contacts.
 * **Smart**: Understands context (e.g., age math) and switches language if spoken to in English.
 
+## ⚠️ Known Limitations
+
+1.  **Single-Task Attention (The "Typing" Blind Spot)**
+    To maintain realistic typing simulation, the bot **stops listening** to new incoming messages while it is currently typing a response. If the stranger sends multiple messages rapidly while Camilla is typing, those specific messages might be ignored to prevent overlapping responses.
+
+2.  **AI Hallucinations & Language**
+    While Llama 3 is highly advanced, Camilla may occasionally:
+    * Make grammatical errors or use slang incorrectly.
+    * Misinterpret sarcasm or complex cultural nuances.
+    * "Hallucinate" facts or forget context if the conversation becomes too long or complex.
+
 ## 📂 Tech Stack
 
 * **Runtime**: Node.js & Express.
